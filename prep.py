@@ -10,3 +10,7 @@ def convert_to_float(df):
     for column in dollar_values:
         df[column] = normalize_dollars(df[column])
     return df
+
+def convert_to_datetime(df):
+    df["timestamp"] = pd.to_datetime(df["timestamp"])
+    return df
