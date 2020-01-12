@@ -5,14 +5,6 @@ env.py
 __pycache__
 .vscode/
 Thumbs.db
-guest_logs.csv
-member_2017.csv
-member_2018.csv
-cancellation.csv
-member_2019.csv
-member_2015.csv
-member_2016.csv
-cl_guest.csv
-cl_member.csv
+*.csv
 business_intelligence.ipynb
-df_member.csv
+prv_guest_logs.ipynb
